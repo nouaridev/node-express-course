@@ -2,6 +2,17 @@ const { readFile, writeFile } = require('fs').promises
 // const util = require('util')
 // const readFilePromise = util.promisify(readFile)
 // const writeFilePromise = util.promisify(writeFile)
+// util can make ur functions return promise so u can use those two directly with await 
+//   or just do the same of the first line .promises to make functions returns promise
+
+
+
+
+
+
+
+
+
 
 const start = async () => {
   try {
@@ -34,3 +45,6 @@ start()
 // getText('./content/first.txt')
 //   .then((result) => console.log(result))
 //   .catch((err) => console.log(err))
+// this is still make ur  code complexed 
+
+

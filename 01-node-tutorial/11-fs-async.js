@@ -27,3 +27,9 @@ readFile('./content/first.txt', 'utf8', (err, result) => {
   })
 })
 console.log('starting next task')
+
+// this is asyncrounous but it is a call back hell 
+
+// Start next task immediately after calling start()
+console.log('starting next task');
+// start();

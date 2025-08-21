@@ -50,3 +50,4 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(5000)
+//هنا هادو الملفات في نود ميتبعثوش تلقاءيا لازم ديجا تهانجدليلهم الريكوستس تاعهم 
